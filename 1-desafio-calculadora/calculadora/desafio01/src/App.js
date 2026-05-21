@@ -1,10 +1,12 @@
-import { Container } from './style.js';
+import { Container, Content } from './style.js';
 
 
 const App = () => {
   return (
     <Container>
-      aa
+      <Content>
+        aa
+      </Content>
     </Container>
   );
 }
